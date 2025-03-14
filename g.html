@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Xếp Hạng Độ Đẹp Trai</title>
+    <style>
+        /* Định dạng chung */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298); /* Nền gradient xanh đậm */
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: rgba(0, 0, 0, 0.8); /* Header màu tối */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Bài viết chính */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1); /* Hộp nội dung trong suốt */
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px); /* Làm mờ nền */
+        }
+
+        /* Tiêu đề */
+        h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #ffcc00;
+        }
+
+        /* Bảng xếp hạng */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        table, th, td {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #ffcc00;
+            color: black;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">TIN NÓNG 24H</div>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Thời sự</a></li>
+                <li><a href="#">Giải trí</a></li>
+                <li><a href="#">Công nghệ</a></li>
+                <li><a href="#">Thể thao</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Công bố bảng xếp hạng độ đẹp trai: Khôi dẫn đầu với 31,5%</h1>
+            <p class="date">Ngày 14/03/2025 - Theo Viện Nghiên cứu Thẩm mỹ Quốc tế</p>
+            <p>Một nghiên cứu mới nhất đã công bố bảng xếp hạng những cái tên nam giới có tỷ lệ đẹp trai cao nhất. Theo kết quả khảo sát trên hơn <strong>100.000 người</strong>, tên <strong>Khôi</strong> dẫn đầu với tỷ lệ <strong>31,5%</strong>, bỏ xa các đối thủ khác.</p>
+            <p>Các chuyên gia nhận định những người tên Khôi thường sở hữu gương mặt hài hòa, đạt chuẩn <strong>Tỷ lệ vàng</strong> (Golden Ratio). Ngoài ra, họ còn có thần thái tự tin và phong cách lôi cuốn.</p>
+            
+            <h2>Top 10 cái tên đẹp trai nhất:</h2>
+            <table>
+                <tr><th>Hạng</th><th>Tên</th><th>Tỷ lệ (%)</th></tr>
+                <tr><td>1</td><td><strong>Khôi</strong></td><td>31,5%</td></tr>
+                <tr><td>2</td><td>Trần</td><td>9,2%</td></tr>
+                <tr><td>3</td><td>Lê</td><td>7,8%</td></tr>
+                <tr><td>4</td><td>Phạm</td><td>6,3%</td></tr>
+                <tr><td>5</td><td>Hoàng/Huỳnh</td><td>5,7%</td></tr>
+                <tr><td>6</td><td>Vũ/Võ</td><td>5,1%</td></tr>
+                <tr><td>7</td><td>Phan</td><td>4,6%</td></tr>
+                <tr><td>8</td><td>Trương</td><td>3,9%</td></tr>
+                <tr><td>9</td><td>Bùi</td><td>3,4%</td></tr>
+                <tr><td>10</td><td>Đặng</td><td>3,2%</td></tr>
+            </table>
+
+            <p>Các trang báo lớn như <strong>BBC Beauty</strong> và <strong>Forbes Aesthetics</strong> cũng đã công bố kết quả tương tự.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tin Nóng 24H | Mọi thông tin chỉ mang tính tham khảo</p>
+    </footer>
+</body>
+</html>
